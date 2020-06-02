@@ -1,0 +1,124 @@
+.topStory{
+width: 100vh;
+}
+
+.social{
+    padding-right: 10px;
+}
+
+.dropdown:hover > .dropdown-menu{
+    display: block;
+}
+
+.nav-item{
+    padding-right: 15px;
+}
+
+.text-uppercase{
+    font-size: small;
+}
+
+.fa{
+    font-size: 15px;
+    color: black;
+}
+
+ul.navbar-nav > li.nav-item > a{
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+ul.navbar-nav > li.nav-item  :hover{
+    border-bottom: 4px solid firebrick;
+}
+
+ul.navbar-nav > li.nav-item > a :active{
+    border-bottom: 4px solid firebrick;
+}
+
+.navigation{
+    border-bottom: 1px solid silver;
+}
+
+.top-link a, .top > div > div > div.login > a{
+    text-decoration: none;
+    color: white;
+}
+
+.top > div > div > div.login > a > span{
+    color: white;
+}
+
+.top{
+    color: white;
+    font-size: small;
+    background-color: #212121;
+}
+
+.top-nav-item{
+    margin-right: 10px;
+}
+
+.navigation{
+    background-color: white;
+}
+
+.top-stories{
+    background-color:#D8DEE9;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+footer{
+    background-color: #0a0a0a;
+}
+
+.footer-header{
+    color: red;
+    /* padding-bottom: 0px; */
+    font-size: small;
+    font-weight: 700;
+}
+
+.divider{
+    background-color: white;
+    margin-top: 0px;
+    height: 1px;
+}
+
+.footer-icons > a > span{
+    color: #a0a0a0;
+    padding-right: 15px;
+}
+
+.footer-nav > div > a{
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-nav > div > a:not(:first-child):before{
+    content:    '/';
+    padding: 0px 9px;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+}
+
+.footer-nav{
+    /* padding: 20px 20px; */
+}
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 1297px) 
+ {
+    ul.navbar-nav > li.nav-item > a{
+        color: black;
+        font-weight: 700;
+        font-size: 12px;
+    }
+ }

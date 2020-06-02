@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    
+    <controller name="Home" prefix="" >
+        <!-- <route name="site.index" path="" action="index" params=""/> -->
+        <route name="site.about" path="/about" action="about" params=""/>
+        <route name="site.login" path="/login" action="login" params=""/>
+        <route name="site.activatecheck" path="/activatecheck" action="activate_check" params=""/>
+        <route name="site.register" path="/register" action="register" params=""/>
+        <route name="site.freelancedashboard" path="/fdashboard" action="freelance_dashboard" params=""/>
+        <route name="site.clientdashboard" path="/cdashboard" action="client_dashboard" params=""/>
+        <route name="site.clientmessage" path="/message" action="client_message" params=""/>
+        <route name="site.freelancemessage" path="/fmessage" action="freelance_message" params=""/>
+        <route name="site.search" path="search" action="" params=""/>
+        <route name="site.personalprofile" path="/profile" action="personalprofile" params=""/>
+    </controller>
+    
+</root>

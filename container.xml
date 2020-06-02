@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<ROOT_DIR>
+    <services>
+        <service name="mailer" class="Service\MailService" injections=""/>
+    </services>
+    
+    <providers>
+    </providers>
+</ROOT_DIR>

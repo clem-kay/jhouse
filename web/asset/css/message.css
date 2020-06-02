@@ -1,0 +1,31 @@
+    .avatar {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .chat-name {
+        color: #073785;
+        font-weight: bold;
+    }
+    
+    .send-btn {
+        border-radius: 12rem;
+        background-color: #006228;
+        color: whitesmoke;
+    }
+    
+    .send-btn:hover {
+        background-color: #006228;
+        color: whitesmoke;
+    }
+    
+    .send-btn:focus {
+        background-color: #00c851;
+        color: whitesmoke;
+    }
+    
+    .chat-card {
+        margin-top: auto;
+        margin-right: auto;
+        width: 40rem;
+    }

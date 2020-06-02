@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    
+    <params>
+        
+    </params>
+    
+    <packs>
+        <pack name="SitePack" prefix="" secured="false"  template="site-layout" />
+        <pack name="AdminPack" prefix="/admin" secured="true" template="editor-layout" middlewares=""  />
+    </packs>
+    
+    <databases>
+        <database name="jobhouse" host="localhost" user="root" password="" dbms="mysql"/>
+    </databases>
+    <app-routes prefix="/routes" active="true"/>
+    <routes-includes-project-folder value ="true" />
+    <superadmin username="admin"  password="admin" code="SUP" />
+</root>
